@@ -25,7 +25,7 @@ Er zijn vier films uitgelicht. Deze vallen onder de "Populair Movies". De gebrui
 ## code
 In v.2 was het alleen mogelijk om op het eerste hart icoontje te klikken inplaats van op de knop zelf. Daarnaast deden de andere knoppen het ook niet. Dit kwam onder andere omdat ik een id gebruikte. Je kunt geen ids voor HTML elementen hergebruiken. Ze moeten uniek zijn. Ook omdat de event handler alleen ingesteld was op het hartje, luistert de button niet naar de klik. Om de hele button te selecteren heb ik querySelectorAll gebruikt. Dit is in v.3 opgelost. Ik heb de code geprobeerd uit te leggen.
 
-```
+``````javascript
 // De parameter geeft de btn door aan de functie
 function changeText(btn) {
     // Als de waarde gelijk is aan "Add to list",
