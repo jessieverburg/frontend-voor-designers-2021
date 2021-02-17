@@ -55,6 +55,7 @@ body {
 .populair-movies .card-container .card img {
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .styling-btn {
