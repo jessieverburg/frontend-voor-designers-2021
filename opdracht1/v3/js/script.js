@@ -1,13 +1,13 @@
-var btn = document.getElementById('btn');
-
-function Toggle() {
-    if (btn.classList.contains("far")) {
-        btn.classList.remove("far");
-        btn.classList.add("fas");
-    }else{
-        btn.classList.remove("fas");
-        btn.classList.add("far");
-    }
+function changeText(btn) {
+  if (btn.value === 'Add to list') {
+   btn.value = 'Added to list!';
+   btn.innerHTML = '<i class="fas fa-heart"></i>Added to list!';
+  } else {
+   btn.value = 'Add to list';
+   btn.innerHTML = '<i class="far fa-heart"></i>Add to list';
+  }
 }
 
-btn.addEventListener('click', Toggle);
+document.querySelectorAll('button').forEach((btn) => btn.addEventListener('click', function () {
+    changeText(btn);
+}));
