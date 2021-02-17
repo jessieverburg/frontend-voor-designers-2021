@@ -46,4 +46,3 @@ function changeText(btn) {
 document.querySelectorAll('button').forEach((btn) => btn.addEventListener('click', function () {
     changeText(btn);
 }));
-```
