@@ -23,4 +23,26 @@ De gebruiker kan er voor kiezen om de film toe te voegen aan zijn/haar lijst. Ma
 Er zijn vier films uitgelicht. Deze vallen onder de "Populair Movies". De gebruiker weet zo dat andere films op dezelfde manier zijn ingedeeld als deze sectie. De films zijn horizontaal op desktop ingedeed.
 
 ## code
-In v.2 was het alleen mogelijk om op het eerste hart icoontje te klikken inplaats van op de knop zelf. Daarnaast deden de andere knoppen het ook niet. Dit kwam onder andere omdat ik een id gebruikte. Je kunt geen ids voor HTML elementen hergebruiken. Ze moeten uniek zijn. Ook omdat de event handler alleen ingesteld was op het hartje, luistert de button niet naar de klik. Om de hele button te selecteren heb ik querySelectorAll gebruikt. Dit is in v.3 opgelost. 
+In v.2 was het alleen mogelijk om op het eerste hart icoontje te klikken inplaats van op de knop zelf. Daarnaast deden de andere knoppen het ook niet. Dit kwam onder andere omdat ik een id gebruikte. Je kunt geen ids voor HTML elementen hergebruiken. Ze moeten uniek zijn. Ook omdat de event handler alleen ingesteld was op het hartje, luistert de button niet naar de klik. Om de hele button te selecteren heb ik querySelectorAll gebruikt. Dit is in v.3 opgelost. Ik heb de code geprobeerd uit te leggen.
+
+// De parameter geeft de btn door aan de functie
+function changeText(btn) {
+    // Als de waarde gelijk is aan "Add to list",
+    if (btn.value === 'Add to list') {
+        // veranderd de tekst naar "Added to list!"
+        btn.value = 'Added to list!';
+        // Het icoon en de tekst wordt geselecteerd met innerHTML, het hartje is hier ingevuld
+        btn.innerHTML = '<i class="fas fa-heart"></i>Added to list!';
+    } else {
+        // Anders wordt de waarde vervangen door 'Add to list' en het hartje is niet ingevuld
+        btn.value = 'Add to list';
+        btn.innerHTML = '<i class="far fa-heart"></i>Add to list';
+    }
+}
+
+// Door de querySelectorAll wordt de button geselecteerd
+// forEach zorgt ervoor dat elke button één keer de functie uitvoerd
+document.querySelectorAll('button').forEach((btn) => btn.addEventListener('click', function () {
+    changeText(btn);
+}));
+
