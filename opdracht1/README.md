@@ -7,7 +7,7 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 # Project titel
 
-<b>Gekozen user case:</b><br> "In een verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken."
+<b>Gekozen user case:</b> "In een verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken."
 
 Ik heb gekozen om een desktop versie te maken met vier films voorgetoond. Elke film kan aan de lijst worden toegevoegd door op de knop de drukken. Het hartje veranderd naar een ingevuld hartje. 
 
