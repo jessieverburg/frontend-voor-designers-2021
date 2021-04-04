@@ -5,8 +5,8 @@ Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
-# Random kattenplaatjes met de cat API
-Mijn site bestaat uit een carousel waarvan de afbeeldingen uit JSON data wordt gehaald. Er zijn 100 random kattenplaatjes te zien en je kan de carousel bedienen met je muis en linker en rechter keys. 
+# Demo omschrijving
+Random kattenplaatjes met de cat API Mijn site bestaat uit een carousel waarvan de afbeeldingen uit JSON data wordt gehaald. Er zijn 100 random kattenplaatjes te zien en je kan de carousel bedienen met je muis en linker en rechter keys. 
 
 En voeg een link naar je demo toe.
 
