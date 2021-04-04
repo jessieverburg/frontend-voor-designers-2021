@@ -60,6 +60,8 @@ Leg de code uit.
 
 </body>
 
+``````
+
 ``````javascript
 // Functie voor de autoplay
 $(function () {
