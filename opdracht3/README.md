@@ -5,16 +5,18 @@ Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
-# Project titel
-Beschrijf hier je eigen project.
+# Random kattenplaatjes met de kat API
+Mijn site bestaat uit een carousel waarvan de afbeeldingen uit JSON data wordt gehaald. Er zijn 100 random kattenplaatjes te zien en je kan de carousel bedienen met je muis en linker en rechter keys. 
+
 En voeg een link naar je demo toe.
 
 ## interface
 Leg de interface uit.
 
-In de demo heb je interface design principles 04, 08, 09 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+<b> In de demo heb je interface design principles 04, 08, 09 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan? <b>
 
-In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+<b>In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?<b>
+
 
 IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/) toegepast. Hoe heb je dat gedaan?
 
