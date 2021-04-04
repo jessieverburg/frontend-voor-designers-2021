@@ -26,7 +26,7 @@ Ik heb de een icon in de knoppen gebruikt zodat de gebruiker weet dat er naar li
 <b>11. Appearance follows behavior</b>  
   
 
-<b>In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?</b>
+<b>In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?</b> <br>
 In de demo is een MouseEvent en een KeyboardEvent aanwezig. Het MouseEvent 
   
   
