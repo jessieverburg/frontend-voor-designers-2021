@@ -8,7 +8,7 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 # Demo omschrijving
 Random kattenplaatjes met de cat API Mijn site bestaat uit een carousel waarvan de afbeeldingen uit JSON data wordt gehaald. Er zijn 100 random kattenplaatjes te zien en je kan de carousel bedienen met je muis en linker en rechter keys. 
 
-En voeg een link naar je demo toe.
+https://jessieverburg.github.io/frontend-voor-designers-2021/opdracht3/v2/
 
 ## interface
 Leg de interface uit.
