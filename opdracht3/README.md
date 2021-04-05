@@ -36,11 +36,20 @@ IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com
 ## code
 Leg de code uit.
 
+In de comments heb ik geprobeerd de code voor mijzelf duidelijker te maken en zal hier wat dieper op in gaan. Ik had besloten om niet verder te gaan met mijn vorige carousel van opdracht 2 maar om een carousel plugin te gebruiken van uit de jQuery libraries. Ik heb zelf nooit eerder met jQuery gewerkt maar omdat ik dit regelmatig voorbij zie komen, besloot ik jQuery te gebruiken voor deze opdracht. De code voor de carousel is een bestaande code gevonden op Codepen, waarvan ik de slides heb vervangen door de afbeeldingen in de Cat API. In mijn eerste versie ging ik aan de slag met de XMLHttpRequest maar heb in mijn uiteindelijke versie Fetch gebruikt. .....dwdwdwejii 
+
+Bronnen:
+https://codepen.io/doodlemarks/pen/aFcly?editors=1010
+
+De HTML bestaat uit een script tag om de jQuery carousel plugin in te laden. In de slider div zijn de rechter en linker knoppen aangegeven door een code (&gt; >) (&lt <) die in de Javascript code aangestuurd worden. Daarnaast bestaat de HTML uit een andere div waarin een checkbox wordt gemaakt om de autoplay aan en uit te zetten, dit wordt ook in Javascript aangestuurd.
+
 ``````html
 <body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
     <h1>Random cat pics</h1>
+  
     <div id="slider">
         <a href="#" class="control_next">&gt;</a>
         <a href="#" class="control_prev">&lt;</a>
@@ -62,6 +71,14 @@ Leg de code uit.
 
 ``````
 
+In de code komen dollar tekens voor. Dit is omdat jQuery gebruikt wordt in de code. De dollar teken is een aanduiding voor variabelen en functies. 
+De eerste regels code bestaan uit de autoplay. De checkbox wordt geselecteerd en er wordt een change event meegegeven. Hierdoor wordt de checkbox geselecteerd wanneer je erop klikt. De setInterval() methode roept een functie aan en voert deze uit op basis van de intervallen, in dit geval 3000 (3 sec). MoveRight zorgt ervoor dat de afbeelding de rechterkant op gaan. 
+
+Daarna worden er 4 variabelen aangemaakt, let slideCount, slideWidth, slideHeight, sliderUlWidth. Deze worden even later gedefinieerd. 
+
+De derde stap wordt er fetch gebruikt voor het ophalen van de API. Het is een JSON bestand met 100 verschillende kattenplaatjes. Eerst wordt er een .json bestand opgehaald. Wanneer de fetch succesvol is, wordt de data gelezen en geparst met json() zodat het gebruikt kan worden. 
+Door $('#sliderUL').html wordt de sliderUL uit de HTML opgehaald. De map methode maakt een nieuwe array aan. De url wordt opegaald en de join() methode geeft de array terug als een string. Daarna worden de let slideCount, slideWidth, slideHeight, sliderUlWidth gedefinieerd. De eigenschap .lenght
+
 ``````javascript
 // Functie voor de autoplay
 $(function () {
@@ -71,6 +88,7 @@ $(function () {
             moveRight();
         }, 3000);
     });
+    
     let slideCount, slideWidth, slideHeight, sliderUlWidth
 
     fetch('https://api.thecatapi.com/v1/images/search?limit=100&mime_types=&order=Random&size=small&page=0&sub_id=demo-de0f69')
