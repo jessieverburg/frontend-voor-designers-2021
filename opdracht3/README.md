@@ -39,7 +39,7 @@ In de demo is een MouseEvent en een KeyboardEvent aanwezig. Het MouseEvent zorgt
 Door met de muis over de buttons heen te hoveren, wordt deze een donkerdere kleur. 
 
 ## code
-Leg de code uit.
+<b>Leg de code uit.</b>
 
 Hier volgt een uitleg van mijn code. Ik heb ik geprobeerd de code voor mijzelf duidelijker te maken want sommige dingen waren voor mijzelf ook een beetje lastig. Ik had besloten om niet verder te gaan met mijn vorige carousel van opdracht 2 maar om een carousel plugin te gebruiken van uit de jQuery libraries. Ik heb zelf nooit eerder met jQuery gewerkt maar omdat ik dit regelmatig voorbij zie komen, besloot ik jQuery te gebruiken voor deze opdracht. De code voor de carousel is een bestaande code gevonden op Codepen, waarvan ik de slides heb vervangen door de afbeeldingen in de Cat API. In mijn eerste versie ging ik aan de slag met de XMLHttpRequest maar heb in mijn uiteindelijke versie Fetch gebruikt doormiddel van deze tutorial te volgen. https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch 
 
