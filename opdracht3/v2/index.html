@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random cat pics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- jQuery carousel plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <h1>Random cat pics</h1>
+
+    <!-- Div met de "next knop >" en "previous <" knop  -->
+    <div id="slider">
+        <a href="#" class="control_next">&gt;</a>
+        <a href="#" class="control_prev">&lt;</a>
+        <ul id="sliderUL"></ul>
+    </div>
+
+    <!-- Div met de optie om autoplay aan te zetten -->
+    <div class="slider_option">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Autoplay Slider</label>
+    </div>
+
+    <div class="text">
+        <p>Gebruik je muis of de linker en rechter keys om te navigeren.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
