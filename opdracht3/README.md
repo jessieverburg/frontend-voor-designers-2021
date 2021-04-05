@@ -88,6 +88,10 @@ De derde stap wordt er fetch gebruikt voor het ophalen van de API. Het is een JS
 Door $('#sliderUL').html wordt de sliderUL uit de HTML opgehaald. De map methode maakt een nieuwe array aan. De url wordt opegaald en de join() methode geeft de array terug als een string. Daarna worden de let slideCount, slideWidth, slideHeight, sliderUlWidth gedefinieerd. De eigenschap .lenght De wordt gebruikt om het aantal elementen van de #slider ul li te tellen. De breedte en de hoogte wordt berekend door de #slider ul li te selecteren. In de css is dit aangegeven. 
 sliderUlWidth vermenigdvuldigd slideCount * slideWidth. De methode css() stelt één of meer stijleigenschappen in of geeft ze terug voor de geselecteerde elementen. De methode prependTo() voegt HTML-elementen in aan het begin van de geselecteerde elementen. De function moveLeft() en moveRight() worden de slides toegevoegd en verwijderd. a.control_prev en control_next dat je op de linker en rechterknoppen kan klikken. Een keydown event is toegepast om de slides met de rechter en linker keys te bedienen. 
 
+<b>Opmerking</b>
+- De slidehow is stuk gegaan. :( Het aanzetten werkt, maar als je de slideshow uitzet gaat die door. 
+- De kattenplaatjes zijn soms niet helemaal de beste kwaliteit en zijn soms uitgerekt. Dit is omdat de plaatjes random zijn en niet allemaal dezelfde formaat hebben. Hierover had ik beter kunnen nadenken voordat ik aan de opdracht begon. 
+
 ``````javascript
 // Functie voor de autoplay
 $(function () {
