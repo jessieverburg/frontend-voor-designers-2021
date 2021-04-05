@@ -31,9 +31,10 @@ Door de slideshow optie aan te vinken, verwacht de gebruiker ook dat de slides a
 De interface is vrij simpel. Ik heb gekozen om geen achtergrond afbeelding te gebruiken omdat het anders te druk werd. Ik heb wel gekozen om een andere font te gebruiken. 
 
 <b>In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?</b> <br>
-In de demo is een MouseEvent en een KeyboardEvent aanwezig. Het MouseEvent 
+
+In de demo is een MouseEvent en een KeyboardEvent aanwezig. Het MouseEvent zorgt ervoor dat je op de buttons kan klikken en dat je naar de linker en rechterkant kan navigeren. Het keyboardEvent zorgt ervoor dat je met je linker en rechter pijltje de slider kan bedienen.
   
-IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/) toegepast. Hoe heb je dat gedaan?
+<b> IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/) toegepast. Hoe heb je dat gedaan? </b>
 
 Door met de muis over de buttons heen te hoveren, wordt deze een donkerdere kleur. 
 
